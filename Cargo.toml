@@ -40,12 +40,5 @@ zip = "0.6"
 closure = []
 embed = []
 
-[workspace]
-members = [
-    "crates/macros",
-    "crates/cli",
-    "tests"
-]
-
 [package.metadata.docs.rs]
 rustdoc-args = ["--cfg", "docs"]
